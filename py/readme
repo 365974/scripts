@@ -1,0 +1,20 @@
+
+
+#запуск виртуального окружения
+source myvenv/bin/activate (linux)
+source venv\Scripts\activate (win)
+
+#Остановка виртуального окружения
+deactivate (stop venv)
+
+
+pip freeze (show installed packages)
+pip install -u (name packages)(update package)
+pip install (name) (install packages)
+
+pip uninstall (name) -y
+pip freeze > requirements.txt (making file requirements.txt)
+pip install -r requirements.txt (install packages from requirements.txt)
+
+pip install faker 
+pip install mysql-connector 
