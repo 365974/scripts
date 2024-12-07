@@ -1,0 +1,7 @@
+::config.txt
+remote_computer=8.8.8.8
+username=root
+password="password"
+::remote_computer=127.0.0.1
+::username=root
+::password="password"
